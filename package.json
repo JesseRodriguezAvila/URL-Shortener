@@ -1,0 +1,31 @@
+{
+  "name": "urlshortenerrestfulapi",
+  "version": "1.0.0",
+  "description": "Url Shortener RESTFul API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+
+    "start": "node ./dist/index.js",
+
+    "dev": "nodemon ./src/index.ts",
+    
+    "seed": "ts-node ./src/seeds",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Rodriguez-Avila",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0",
+    "uuid": "^10.0.0"
+  }
+}

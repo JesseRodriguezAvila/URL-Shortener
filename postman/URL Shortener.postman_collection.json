@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "b3639c7b-8515-49ab-b669-941b78fe95dd",
+		"name": "URL Shortener",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32059211"
+	},
+	"item": [
+		{
+			"name": "Create short url",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\": \"https://www.linkedin.com/school/california-state-university-los-angeles/posts/?feedView=all\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
