@@ -1,4 +1,4 @@
-Url shortener
+# Url shortener
 ##### Tools: Node.js, Express.js, Mongoose (ODM), TypeScript
 
 Install dependecies: `npm install`
